@@ -33,6 +33,10 @@ public class LivingThing {
         return dead;
     }
 
+    public int getAttack(){
+        return attack;
+    }
+
     
     /**
      * 対象へ攻撃するメソッド。
